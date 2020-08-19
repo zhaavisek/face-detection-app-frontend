@@ -1,38 +1,25 @@
 {
-  "name": "face-recognition-brain",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "clarifai": "^2.9.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-particles-js": "^3.3.0",
-    "react-scripts": "3.4.1",
-    "react-tilt": "^0.1.4",
-    "tachyons": "^4.12.0"
-  },
+  "name": "smart-brain-api",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "nodemon server.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "git": "^0.1.5",
+    "knex": "^0.21.5-next2",
+    "pg": "^8.3.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "description": ""
 }

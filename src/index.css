@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+    background-size:cover;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(221,108,205,1) 0%, rgba(184,31,83,1) 0%, rgba(155,145,249,1) 100%);
+}
+
+
